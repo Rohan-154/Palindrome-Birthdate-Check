@@ -126,12 +126,16 @@ function getNextPalindromeDate(date){
   }
   return[ctr, nextDate];
 }
+function show(){
+ divShow.style.display="block"
+}
 
 
 
 const bdateInp = document.querySelector(".birthInput");
 const checkBtn = document.querySelector(".checkBtn");
 const output = document.querySelector(".output");
+const divShow= document.querySelector("#section")
 
 function clickEventHandler(e){
   var bdayStr = bdateInp.value;
@@ -146,10 +150,10 @@ function clickEventHandler(e){
    var isPalindrome = checkPalindromeForAllDateFormats(date)
 
    if(isPalindrome){
-     output.innerText = "yey! Your birthDay is Palindrome  "
+     output.innerText = "See the Smile! Your birthDay is Palindrome mate.  "
    }else{
      var [ctr, nextDate] = getNextPalindromeDate(date);
-     output.innerText = ` you missed it by ${ctr} days, The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}`
+     output.innerText = ` You missed the Palindrome Date by ${ctr} days, The next Palindrome Date is ${nextDate.day}-${nextDate.month}-${nextDate.year}`
    }
 }
 }
