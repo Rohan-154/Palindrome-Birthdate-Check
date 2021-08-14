@@ -1,0 +1,46 @@
+:root{
+    --primary-color: #FCE7F3;
+}
+.body1{
+   background-color: var(--primary-color);
+   background-image: url("images/undraw_welcome_3gvl.svg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 50% 50%;
+   min-height: 100vh;
+   margin: 0;
+   
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.list-non-bullet{
+    position: fixed;
+    top: 0pt; 
+    right: 0pt;
+    list-style: none;
+    
+ }
+ ul li{
+   display: inline;
+   padding: 1rem;
+   
+ }
+ .fa-twitter-square {
+   color: #00acee;
+
+
+}
+
+.fa-github-square {
+
+   color: #211F1F;
+
+
+}
+.fa-linkedin{
+   color: #0077b5;
+}
