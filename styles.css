@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 :root{
     --primary-color: #FCE7F3;
     --secondary-color:#F3F4F6;
@@ -9,6 +11,7 @@
    background-position: center;
    background-size: 50% 50%;
    min-height: 100vh;
+   font-family: 'Oswald', sans-serif;
  
    
 }
@@ -91,6 +94,7 @@ h2{
     background-size: 400px;
     min-height: 80vh;
     max-width: 50%;
+    font-family: 'Oswald', sans-serif;
   
 }
 .birthInput{
